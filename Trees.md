@@ -10,7 +10,7 @@
 
 **-------IFFA-------------------** </br>
 
-	git clone https://github.com/drkphnx/device_xiaomi_extras.git -b 12 device/xiaomi/extras 
+	git clone https://github.com/drkphnx/vendor_xiaomi_sm8250-common-extra.git -b 12 vendor/xiaomi/sm8250-common-extra
 
 **---------Kernel ----------------** </br>
 
@@ -29,8 +29,3 @@
 	git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/media 
 	rm -rf hardware/qcom-caf/sm8250/audio
 	git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/audio
-
-**-----------------untill i adapt parts to S style completly--------------** </br>
-
-	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
-

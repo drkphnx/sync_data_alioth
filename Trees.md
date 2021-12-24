@@ -14,7 +14,7 @@
 
 **---------Kernel ----------------** </br>
 
-	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b twelve kernel/xiaomi/alioth 
+	git clone https://github.com/GZR-Kernels/Optimus_Drunk_Alioth.git -b 11.0 kernel/xiaomi/alioth 
 
 **------------Xiaomi Harware required to build xiaomi Parts---------------** </br>
 

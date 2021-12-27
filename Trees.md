@@ -17,7 +17,7 @@
     --------------------OD------------
 	git clone https://github.com/GZR-Kernels/Optimus_Drunk_Alioth.git -b 11.0 kernel/xiaomi/alioth 
 	
-    --------------------arow---------------- 	
+    --------------------arrow---------------- 	
 	git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_alioth.git -b arrow-12.0 kernel/xiaomi/alioth  
 	
     -----------------------Quantic-----------------
@@ -36,3 +36,8 @@
 	git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/media 
 	rm -rf hardware/qcom-caf/sm8250/audio
 	git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/audio
+
+**----------------Lawnchair---------------------------------** </br>
+
+	git clone https://github.com/Spark-Rom/vendor_lawnchair.git -b spark  vendor/lawnchair
+	

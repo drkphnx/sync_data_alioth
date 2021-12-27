@@ -12,10 +12,17 @@
 
 	git clone https://github.com/drkphnx/vendor_xiaomi_sm8250-common-extra.git -b 12 vendor/xiaomi/sm8250-common-extra
 
-**---------Kernel ----------------** </br>
+**---------Kernels ----------------** </br>
 
+    --------------------OD------------
 	git clone https://github.com/GZR-Kernels/Optimus_Drunk_Alioth.git -b 11.0 kernel/xiaomi/alioth 
-
+	
+    --------------------arow---------------- 	
+	git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_alioth.git -b arrow-12.0 kernel/xiaomi/alioth  
+	
+    -----------------------Quantic-----------------
+	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b twelve kernel/xiaomi/alioth 
+	
 **------------Xiaomi Harware required to build xiaomi Parts---------------** </br>
 
 	rm -rf hardware/xiaomi

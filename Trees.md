@@ -41,3 +41,7 @@
 
 	git clone https://github.com/Spark-Rom/vendor_lawnchair.git -b spark  vendor/lawnchair
 	
+**..................Packages Device settings.................** <br>
+
+	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
+	

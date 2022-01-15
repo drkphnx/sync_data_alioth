@@ -30,7 +30,7 @@
 	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b twelve kernel/xiaomi/alioth 
 	
     -----------------------Next kernel-----------------	
-    	git clone https://github.com/NextWork123/kernel_xiaomi_sm8250.git -b android11-stable kernel/xiaomi/alioth
+    git clone https://github.com/NextWork123/kernel_xiaomi_sm8250.git -b android11-stable kernel/xiaomi/alioth
 	
 **------------Xiaomi Harware required to build xiaomi Parts---------------** </br>
 

@@ -49,7 +49,7 @@
 
 **----------------Lawnchair---------------------------------** </br>
 
-	git clone https://github.com/Spark-Rom/vendor_lawnchair.git -b spark  vendor/lawnchair
+	git clone git@github.com:drkphnx/vendor_lawnchair.git -b 12  vendor/lawnchair
 	
 **..................Packages Device settings.................** <br>
 	

@@ -10,10 +10,6 @@
 	
 	git clone git@github.com:drkphnx/vendor_xiaomi.git -b 12  vendor/xiaomi
 
-**-------IFFA-------------------** </br>
-
-	git clone https://github.com/drkphnx/vendor_xiaomi_sm8250-common-extra.git -b 12 vendor/xiaomi/sm8250-common-extra
-
 **---------Kernels ----------------** </br>
 
     --------------------OD------------

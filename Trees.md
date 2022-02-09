@@ -21,10 +21,10 @@
 	git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_alioth.git -b arrow-12.0 kernel/xiaomi/alioth  
 	
     -----------------------Quantic-----------------
-	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b twelve kernel/xiaomi/alioth 
+	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b upstreamed-common kernel/xiaomi/alioth 
 	
     -----------------------Next kernel-----------------	
-    git clone https://github.com/NextWork123/kernel_xiaomi_sm8250.git -b android11-stable kernel/xiaomi/alioth
+    git clone git@github.com:NextWork123/kernel_xiaomi_sm8250-1.git -b S kernel/xiaomi/alioth
 	
 **------------Xiaomi Harware required to build xiaomi Parts---------------** </br>
 

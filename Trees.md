@@ -24,11 +24,11 @@
 	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b upstreamed-common kernel/xiaomi/alioth 
 	
     -----------------------Next kernel-----------------	
-        git clone git@github.com:NextWork123/kernel_xiaomi_sm8250-1.git -b S kernel/xiaomi/alioth
+    git clone git@github.com:NextWork123/kernel_xiaomi_sm8250-1.git -b S kernel/xiaomi/alioth
 	
     -----------------------N0 kernel-----------------	
         
-        git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
+    git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
     
  **------------proton clang---------------** </br>
     

@@ -15,15 +15,19 @@
 **---------Kernels ----------------** </br>
 
     --------------------OD------------
+    
 	git clone https://github.com/GZR-Kernels/Optimus_Drunk_Alioth.git -b 11.0 kernel/xiaomi/alioth 
 	
     --------------------arrow---------------- 	
+    
 	git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_alioth.git -b arrow-12.0 kernel/xiaomi/alioth  
 	
     -----------------------Quantic-----------------
+    
 	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b upstreamed-common kernel/xiaomi/alioth 
 	
     -----------------------Next kernel-----------------	
+    
     git clone git@github.com:NextWork123/kernel_xiaomi_sm8250-1.git -b S kernel/xiaomi/alioth
 	
     -----------------------N0 kernel-----------------	
@@ -61,4 +65,8 @@
 	
 	rm -rf packages/resources/devicesettings 
 	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
+	
+**..................Google camera.................** <br>	
+
+    git clone https://github.com/drkphnx/packages_apps_Gcam.git packages/apps/Gcam
 	

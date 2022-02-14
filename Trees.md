@@ -25,7 +25,11 @@
 	
     -----------------------Next kernel-----------------	
     git clone git@github.com:NextWork123/kernel_xiaomi_sm8250-1.git -b S kernel/xiaomi/alioth
-	
+    
+ **------------proton clang---------------** </br>
+    
+    git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+    
 **------------Xiaomi Harware required to build xiaomi Parts---------------** </br>
 
 	rm -rf hardware/xiaomi

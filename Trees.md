@@ -1,4 +1,4 @@
-****----------Device Tree--------****
+**Device Tree**
 
 	git clone https://github.com/drkphnx/device_xiaomi_sm8250-common.git -b 12  device/xiaomi/sm8250-common 
 	git clone https://github.com/drkphnx/device_xiaomi_alioth.git -b 12  device/xiaomi/alioth
@@ -8,11 +8,11 @@
 	
 	git clone git@github.com:drkphnx/device_xiaomi_sm8250-common_.git -b 12 device/xiaomi/sm8250-common
 
-**------vendor tree--------------**
+**vendor tree**
 	
 	git clone git@github.com:drkphnx/vendor_xiaomi.git -b 12  vendor/xiaomi
 
-**---------Kernels ----------------** </br>
+**Kernels**
 
     --------------------OD------------
     
@@ -34,16 +34,16 @@
         
     git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
     
- **------------proton clang---------------** </br>
+ **proton clang**
     
     git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
     
-**------------Xiaomi Harware required to build xiaomi Parts---------------** </br>
+**Xiaomi Harware required to build xiaomi Parts**
 
 	rm -rf hardware/xiaomi
 	git clone https://github.com/ProjectRadiant/hardware_xiaomi.git -b twelve hardware/xiaomi
 
-**----------------HALS--------------------------------------** </br>
+**HALS**
 
 	rm -rf hardware/qcom-caf/sm8250/display 
 	
@@ -57,16 +57,16 @@
 	
 	git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/audio 
 
-**----------------Lawnchair---------------------------------** </br>
+**Lawnchair**
 
 	git clone git@github.com:drkphnx/vendor_lawnchair.git -b 12  vendor/lawnchair
 	
-**..................Packages Device settings.................** <br>
+**Packages Device settings**
 	
 	rm -rf packages/resources/devicesettings 
 	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
 	
-**..................Google camera.................** <br>	
+**Google camera**
 
     git clone https://github.com/drkphnx/packages_apps_Gcam.git packages/apps/Gcam
 	

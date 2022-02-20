@@ -61,3 +61,7 @@
 **Google camera**
 
     git clone https://github.com/drkphnx/packages_apps_Gcam.git packages/apps/Gcam
+
+**NFC (for some roms that doeesn't have kryo 785 support in source caf nfc package)**
+	rm -rf vendor/nxp/opensource/commonsys/packages/apps/Nfc
+	git clone git@github.com:drkphnx/vendor_nxp_opensource_commonsys_packages_apps_Nfc.git -b snowcone vendor/nxp/opensource/commonsys/packages/apps/Nfc

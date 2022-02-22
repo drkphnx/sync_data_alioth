@@ -33,7 +33,7 @@
 **Xiaomi Harware required to build xiaomi Parts**
 
 	rm -rf hardware/xiaomi
-	git clone https://github.com/ProjectRadiant/hardware_xiaomi.git -b twelve hardware/xiaomi
+	git clone git@github.com:LineageOS/android_hardware_xiaomi.git -b lineage-19.0 hardware/xiaomi
 
 **HALS**
 

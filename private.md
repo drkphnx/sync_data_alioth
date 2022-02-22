@@ -10,9 +10,9 @@
 
 **Kernels**
 
-    --------------------OD------------
+    --------------------InfiniR------------
     
-	git clone https://github.com/GZR-Kernels/Optimus_Drunk_Alioth.git -b 11.0 kernel/xiaomi/alioth 
+	git clone git@github.com:raystef66/InfiniR_kernel_alioth.git -b 12.0 kernel/xiaomi/alioth 
 	
     --------------------arrow------------------
     

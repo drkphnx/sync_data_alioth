@@ -54,8 +54,9 @@
 	
 	git clone git@github.com:PixelPlusUI-Devices/alioth_hardware_qcom-caf_sm8250_audio.git -b snowcone hardware/qcom-caf/sm8250/audio 
 
-**Lawnchair**
-
+**Lawnchair (optional)**
+	
+	rm -rf vendor/lawnchair
 	git clone git@github.com:drkphnx/vendor_lawnchair.git -b 12  vendor/lawnchair
 	
 **Packages Device settings**
@@ -64,6 +65,7 @@
 	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
 
 **ant-wireless**
-
+	
+	rm -rf external/ant-wireless/antradio-library
 	git clone git@github.com:drkphnx/external_ant-wireless_antradio-library.git -b snowcone external/ant-wireless/antradio-library
 	

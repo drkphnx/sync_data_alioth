@@ -62,4 +62,8 @@
 	
 	rm -rf packages/resources/devicesettings 
 	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
+
+**ant-wireless**
+
+	git clone git@github.com:drkphnx/external_ant-wireless_antradio-library.git -b snowcone external/ant-wireless/antradio-library
 	

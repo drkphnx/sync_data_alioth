@@ -1,14 +1,13 @@
 **Device Tree**
 
-	git clone https://github.com/drkphnx/device_xiaomi_sm8250-common.git -b 12  device/xiaomi/sm8250-common 
-	git clone https://github.com/drkphnx/device_xiaomi_alioth.git -b 12  device/xiaomi/alioth
-	
 	git clone git@github.com:drkphnx/device_xiaomi_sm8250-common.git -b 12 device/xiaomi/sm8250-common 
 	git clone git@github.com:drkphnx/device_xiaomi_alioth.git -b 12  device/xiaomi/alioth
 
 **vendor tree**
 	
-	git clone git@github.com:drkphnx/vendor_xiaomi.git -b 12  vendor/xiaomi
+	git clone git@github.com:drkphnx/vendor_xiaomi_alioth.git -b 12  vendor/xiaomi/alioth
+	git clone git@github.com:drkphnx/vendor_xiaomi_sm8250-common.git -b 12 vendor/xiaomi/sm8250-common
+	git clone git@github.com:drkphnx/vendor_xiaomi_sm8250-common-extra.git -b 12 vendor/xiaomi/sm8250-common-extra
 
 **Kernels**
 
@@ -24,9 +23,9 @@
     
 	git clone https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8250.git -b upstreamed-common kernel/xiaomi/alioth 
 	
-    -----------------------Next kernel-----------------	
+    -----------------------immensity fork by ppui-----------------	
     
-    git clone git@github.com:NextWork123/kernel_xiaomi_sm8250-1.git -b S kernel/xiaomi/alioth
+    git clone git@github.com:PixelPlusUI-Devices/alioth_kernel_xiaomi_sm8250.git -b snowcone kernel/xiaomi/alioth
 	
     -----------------------N0 kernel-----------------	
         
@@ -39,21 +38,21 @@
 **Xiaomi Harware required to build xiaomi Parts**
 
 	rm -rf hardware/xiaomi
-	git clone https://github.com/ProjectRadiant/hardware_xiaomi.git -b twelve hardware/xiaomi
+	git clone git@github.com:LineageOS/android_hardware_xiaomi.git -b lineage-19.0 hardware/xiaomi
 
 **HALS**
 
 	rm -rf hardware/qcom-caf/sm8250/display 
 	
-	git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/display 
+	git clone git@github.com:PixelPlusUI-Devices/alioth_hardware_qcom-caf_sm8250_display.git -b snowcone hardware/qcom-caf/sm8250/display 
 	
 	rm -rf hardware/qcom-caf/sm8250/media 
 	
-	git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/media 
+	git clone git@github.com:PixelPlusUI-Devices/alioth_hardware_qcom-caf_sm8250_media.git -b snowcone hardware/qcom-caf/sm8250/media 
 	
 	rm -rf hardware/qcom-caf/sm8250/audio 
 	
-	git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12.0-caf-sm8250 hardware/qcom-caf/sm8250/audio 
+	git clone git@github.com:PixelPlusUI-Devices/alioth_hardware_qcom-caf_sm8250_audio.git -b snowcone hardware/qcom-caf/sm8250/audio 
 
 **Lawnchair**
 
@@ -63,8 +62,4 @@
 	
 	rm -rf packages/resources/devicesettings 
 	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
-	
-**Google camera**
-
-    git clone https://github.com/drkphnx/packages_apps_Gcam.git packages/apps/Gcam
 	

@@ -4,11 +4,9 @@
 	git clone git@github.com:drkphnx/device_xiaomi_alioth.git -b 12  device/xiaomi/alioth
 
 **vendor tree**
+ 	
+	git clone git@github.com:drkphnx/vendor_xiaomi.git -b 12  vendor/xiaomi
 	
-	git clone git@github.com:drkphnx/vendor_xiaomi_alioth.git -b 12  vendor/xiaomi/alioth
-	git clone git@github.com:drkphnx/vendor_xiaomi_sm8250-common.git -b 12 vendor/xiaomi/sm8250-common
-	git clone git@github.com:drkphnx/vendor_xiaomi_sm8250-common-extra.git -b 12 vendor/xiaomi/sm8250-common-extra
-
 **Kernels**
 
     --------------------OD------------

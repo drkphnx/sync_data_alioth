@@ -9,6 +9,10 @@
 	git clone git@github.com:drkphnx/android_vendor_xiaomi_alioth.git -b twelve vendor/xiaomi/alioth
 
 **Kernels**
+   
+    --------------------Next Kernel------------
+   
+	git clone git@github.com:NextWork123/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
 
     --------------------InfiniR------------
     
@@ -25,6 +29,7 @@
     -----------------------N0 kernel-----------------	
         
     git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
+    
     
  **proton clang**
     

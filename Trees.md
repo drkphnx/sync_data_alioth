@@ -67,3 +67,7 @@
 	rm -rf external/ant-wireless/antradio-library
 	git clone git@github.com:drkphnx/external_ant-wireless_antradio-library.git -b snowcone external/ant-wireless/antradio-library
 	
+**NFC (for some roms that doeesn't have kryo 785 support in source nfc package)**
+
+	rm -rf vendor/nxp/opensource/commonsys/packages/apps/Nfc
+	git clone git@github.com:drkphnx/vendor_nxp_opensource_commonsys_packages_apps_Nfc.git -b snowcone vendor/nxp/opensource/commonsys/packages/apps/Nfc

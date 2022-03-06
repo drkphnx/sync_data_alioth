@@ -57,10 +57,6 @@
 	rm -rf vendor/lawnchair
 	git clone git@github.com:drkphnx/vendor_lawnchair.git -b 12  vendor/lawnchair
 	
-**Packages Device settings**
-	
-	rm -rf packages/resources/devicesettings 
-	git clone https://github.com/drkphnx/packages_resources_devicesettings.git -b snow packages/resources/devicesettings 
 
 **ant-wireless**
 	

@@ -41,7 +41,7 @@
     
  	---------------AOSP clang 14-----------------------------
     
-    git clone git@github.com:drkphnx/android_prebuilts_clang_host_linux-x86_clang-r437112.git -b master prebuilts/clang/host/linux-x86/clang-r437112 
+    git clone https://github.com/drkphnx/android_prebuilts_clang_host_linux-x86_clang-r437112.git -b master prebuilts/clang/host/linux-x86/clang-r437112 
     
     
 **Xiaomi Harware required to build xiaomi Parts**

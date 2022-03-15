@@ -1,17 +1,17 @@
 **Device Tree**
 
-	git clone git@github.com:drkphnx/device_xiaomi_sm8250-common.git -b 12 device/xiaomi/sm8250-common 
+	git clone git@github.com:drkphnx/device_xiaomi_sm8250-common.git -b 12.1 device/xiaomi/sm8250-common 
 	git clone git@github.com:drkphnx/device_xiaomi_alioth.git -b 12  device/xiaomi/alioth
 
 **vendor tree**
  	
-	git clone git@github.com:drkphnx/vendor_xiaomi.git -b 12  vendor/xiaomi
+	git clone git@github.com:drkphnx/vendor_xiaomi.git -b 12.1  vendor/xiaomi
 	
 **Kernels**
 
-    --------------------OD------------
+    --------------------InfiniR------------
     
-	git clone https://github.com/GZR-Kernels/Optimus_Drunk_Alioth.git -b 11.0 kernel/xiaomi/alioth 
+	git clone git@github.com:raystef66/InfiniR_kernel_alioth.git -b 12.0 kernel/xiaomi/alioth 
 	
     --------------------arrow---------------- 	
     
@@ -27,11 +27,22 @@
 	
     -----------------------N0 kernel-----------------	
         
-    git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
+    git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b staging2 kernel/xiaomi/alioth
     
- **proton clang**
+    -----------------------Next Kernel-------------------------------------------
+    git clone git@github.com:NextWork123/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
+    
+    
+ **clang**
+ 
+ 	--------------Proton Clang-----------------------------------
     
     git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+    
+ 	---------------AOSP clang 14-----------------------------
+    
+    git clone git@github.com:drkphnx/android_prebuilts_clang_host_linux-x86_clang-r437112.git -b master prebuilts/clang/host/linux-x86/clang-r437112 
+    
     
 **Xiaomi Harware required to build xiaomi Parts**
 

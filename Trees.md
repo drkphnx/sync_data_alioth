@@ -1,7 +1,7 @@
 **Device Tree**
 
 	git clone git@github.com:drkphnx/device_xiaomi_sm8250-common.git -b 12.1 device/xiaomi/sm8250-common 
-	git clone git@github.com:drkphnx/device_xiaomi_alioth.git -b 12  device/xiaomi/alioth
+	git clone git@github.com:drkphnx/device_xiaomi_alioth.git -b 12.1  device/xiaomi/alioth
 
 **vendor tree**
  	

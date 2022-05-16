@@ -11,11 +11,7 @@
 
     --------------------InfiniR------------
     
-	git clone git@github.com:raystef66/InfiniR_kernel_alioth.git -b 12.0 kernel/xiaomi/alioth 
-	
-    --------------------arrow---------------- 	
-    
-	git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_alioth.git -b arrow-12.0 kernel/xiaomi/alioth  
+	git clone git@github.com:raystef66/InfiniR_kernel_alioth.git -b 12.1-alioth kernel/xiaomi/alioth  
 	
     -----------------------Quantic-----------------
     
@@ -27,10 +23,7 @@
 	
     -----------------------N0 kernel-----------------	
         
-    git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b staging2 kernel/xiaomi/alioth
-    
-    -----------------------Next Kernel-------------------------------------------
-    git clone git@github.com:NextWork123/kernel_xiaomi_sm8250.git -b S kernel/xiaomi/alioth
+    git clone git@github.com:EmanuelCN/kernel_xiaomi_sm8250.git -b staging3 kernel/xiaomi/alioth
     
     
  **clang**
